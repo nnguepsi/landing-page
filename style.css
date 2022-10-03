@@ -1,4 +1,20 @@
+.logo{
+    width: auto;
+    height: 50px;
+}
+
+#header-links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#sign-up-button{
+    background-color: #3882f6;
+    color: white;
+}
+
 #quote-section{
     color: #1f2937;
     background-color: #e5e7eb;
 }
+
