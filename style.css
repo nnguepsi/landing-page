@@ -1,11 +1,25 @@
+/* Formatting */
+
+ #nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+} 
+
 .logo{
     width: auto;
     height: 50px;
+    justify-content:flex-start;
 }
 
-#header-links{
-    display: flex;
-    justify-content: flex-end;
+/* Design */
+
+#nav-bar{
+    background-color: #1f2937;
+}
+
+#header-link-1, #header-link-2, #header-link-3{
+    color: #e5e7eb;
 }
 
 #sign-up-button{
