@@ -3,14 +3,15 @@
  #nav-bar {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-around;    
+
 } 
 
-.logo{
+#nav-bar> #logo{
     width: auto;
-    height: 50px;
-    justify-content:flex-start;
+    height: 60px;
 }
+
 
 /* Design */
 
@@ -20,6 +21,16 @@
 
 #header-link-1, #header-link-2, #header-link-3{
     color: #e5e7eb;
+}
+
+#logo{
+    border: 5px solid #3882f6;
+    border-radius: 50px;
+}
+
+.section-1 {
+    background-color: #1f2937;
+    margin:
 }
 
 #sign-up-button{
